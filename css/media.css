@@ -597,6 +597,15 @@
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1499.98px) {
 
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1500px) {
+	main {
+		background-image: url(../images/banner_bg.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+	}
 }
