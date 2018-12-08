@@ -3,7 +3,7 @@
 	main {
 		background-image: url(../images/banner_bg_sm.jpg);
 		background-repeat: no-repeat;
-		background-size: 260%;
+		background-size: 230%;
 	}
 	/* Header Section Start */
 	.custom_navbar {
@@ -156,12 +156,12 @@
 	main {
 		background-image: url(../images/banner_bg_sm.jpg);
 		background-repeat: no-repeat;
-		background-size: 230%;
-		background-position: top top;
+		background-size: 200%;
+		background-position: top center;
 	}
 	/* Header Section Start */
 	.custom_navbar {
-		padding: 20px 10px;
+		padding: 10px 20px;
 	}
 	.navbar-brand {
 		width: 50%
@@ -311,10 +311,13 @@
 	main {
 		background-image: url(../images/banner_bg_sm.jpg);
 		background-repeat: no-repeat;
-		background-size: 200%;
-		background-position: top top;
+		background-size: 180%;
+		background-position: top center;
 	}
 	/* Header Section Start */
+	.custom_navbar {
+		padding: 10px 30px;
+	}
 	.custom_nav li {
 		margin-left: 0px;
 		margin-top: 5px;
@@ -322,7 +325,7 @@
 	/* Header Section End */
 	/* Banner Section Start */
 	.banner_text {
-		margin-top: 40px;
+		margin-top: 50px;
 		margin-bottom: 50px;
 	}
 	.banner_text h1 {
