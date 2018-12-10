@@ -1,614 +1,711 @@
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 375.98px) {
-	main {
-		background-image: url(../images/banner_bg_sm.jpg);
-		background-repeat: no-repeat;
-		background-size: 230%;
-	}
-	/* Header Section Start */
-	.custom_navbar {
-		padding: 20px 10px;
-	}
-	.navbar-brand {
-		width: 50%
-	}
-	.custom_nav li {
+@media (max-width: 575.98px) {
+	/* Header Starts Here */
+	.custom_nav-item li {
+		width: 40%;
+		margin-top: 10px;
 		margin-left: 0px;
-		margin-top: 5px;
+		margin-right: 0px;
 	}
-	/* Header Section End */
-	/* Banner Section Start */
-	.banner_text {
-		margin-top: 50px;
-		margin-bottom: 50px;
-	}
-	.banner_text h1 {
-		font-size: 22px;
-		line-height: .1;
-	}
-	.banner_text h2 {
-		font-size: 30px;
-	}
-	.banner_text p {
+	.custom_nav-item a {
 		font-size: 14px;
-		word-spacing: 0px;
+		padding: 5px 25px!important;
 	}
-	.banner_image {
-		margin: 0 auto;
+	/* Header Ends Here */
+	/* Banner Starts Here */
+	.custom_tcaption {
+	    position: absolute;
+	    right: 15%;
+	    top: -10px;
+	    left: 15%;
 	}
-	/* Banner Section End */
-	/* About Section Start */
-	.about {
-		margin-top: 0px;
-		padding-bottom: 20px;
-		background-color: #FFC61A;
+	.custom_tcaption h1 {
+	    font-size: 16px;
 	}
-	.about_text {
-		margin-top: 0px;
-		margin-bottom: 20px;
+	.custom_bcaption {
+	    position: absolute;
+	    right: 15%;
+	    bottom: 0;
 	}
-	.about_text h1 {
-		font-size: 20px;
+	.custom_bcaption a img {
+		width: 45%;
 	}
-	.about_text h2 {
-		font-size: 26px;
+	/* Banner Ends Here */
+	/* Service Section Starts Here */
+	.service_title {
+		margin-top: 25px;
 	}
-	.booking_form button {
-		padding: 0px 100px;
+	.service_title img {
+		width: 55%;
 	}
-	/* About Section End */
-	/* Tariff Section Start */
-	.tariff {
-		margin-top: 40px;
-		margin-bottom: 40px;
-	}
-	.common_title h1 {
-		font-size: 24px;
-	}
-	.common_title h2 {
-		font-size: 32px;
-	}
-	.custom_card-body h5 {
-		font-size: 22px;
-	}
-	.custom_card-body p {
-		font-size: 16px;
-	}
-	.custom_card-body h1 {
-		font-size: 32px;
-		margin-bottom: 25px;
-	}
-	.custom_card-body a {
-		font-size: 22px;
-		padding: 8px 17px;
-	}
-	/* Tariff Section End */
-	/* Service Section Start */
-	.top_margin {
-		margin-top: 40px;
-	}
-	.service_content {
-		margin-top: 30px;
-	}
-	.service_button a {
-		font-size: 22px;
-		padding: 8px 17px;
-	}
-	/* Service Section End */
-	/* Mobile Apps Section Starts */
-	.apps_content {
-		margin-top: 10px;
-	}
-	.apps_content h1 {
-		padding-top: 10px;
-	}
-	.apps_content p {
-		margin-bottom: 30px;
-	}
-	.apps_content a img {
-		width: 49%;
-	}
-	/* Mobile Apps Section Ends */
-	/* Clients Testimonial Section Starts */
-	.testimonial {
-		padding-bottom: 40px;
-	}
-	.testimonial_content {
-		margin-top: 20px;
-		margin-bottom: 10px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-	.testimonial_content h1 {
-		margin-top: 15px;
-	}
-	/* Clients Testimonial Section Ends */
-	/* Hotline Number Section Start */
-	.hotline_number {
-		margin-top: 40px;
-		margin-bottom: 40px;
-	}
-	.hotline_number h1 {
-		font-size: 16px;
-	}
-	.hotline_number h2 {
+	.service_title h1 {
 		font-size: 30px;
 	}
-	/* Hotline Number Section End */
-	/* Contact Section Starts */
-	.contact_title {
-		margin-top: 0px;
+	.service_content p {
+		font-size: 14px;
+		margin-top: 10px;
 	}
-	.col_margin {
-		margin-top: 40px;
+	.service_icons {
+		margin-top: 25px;
+	}
+	.service_icons h5 {
+		font-size: 12px;
+	}
+	.service_icons p {
+		font-size: 12px;
+	}
+	.works_title {
+		margin-bottom: 15px;
+	}
+	.works_title h1 {
+		font-size: 30px;
+		margin-top: 50px;
+	}
+	.works_title img {
+		width: 55%;
+	}
+	.load_more button img {
+		width: 45%;
+		margin-top: 35px;
+	}
+	/* Service Section Ends Here */
+	/* About Me Section Starts Here */
+	.about_title h1 {
+		font-size: 30px;
+		margin-top: 35px;
+	}
+	.about_title img {
+		width: 55%;
+	}
+	.about_content p {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	.skillset {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.skillset img {
+		margin-top: 10px;
+	}
+	.skillset h1 {
+		font-size: 24px;
+	}
+	.skillset h6 {
+		font-size: 14px;
+	}
+	.skillset p {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	/* About Me Section Ends Here */
+	/* Contact Section Starts Here */
+	.contact_form {
+		margin-top: 25px;
+		margin-bottom: 10px;
 	}
 	.contact_title h1 {
-		font-size: 22px;
+		font-size: 30px;
+	}
+	.contact_title img {
+		width: 55%;
+	}
+	.contact_form form button {
+		margin-top: 25px;
+	}
+	.contact_form form button img {
+		width: 60%;
 	}
 	.contact_content {
-		margin-top: 30px;
-		margin-bottom: 40px;
-	}
-	/* Contact Section Ends */
-}
-/* Extra-Small devices (landscape phones, 376px and up) */
-@media (min-width: 376px) and (max-width: 575.98px) {
-	main {
-		background-image: url(../images/banner_bg_sm.jpg);
-		background-repeat: no-repeat;
-		background-size: 200%;
-		background-position: top center;
-	}
-	/* Header Section Start */
-	.custom_navbar {
-		padding: 10px 20px;
-	}
-	.navbar-brand {
-		width: 50%
-	}
-	.custom_nav li {
-		margin-left: 0px;
-		margin-top: 5px;
-	}
-	/* Header Section End */
-	/* Banner Section Start */
-	.banner_text {
-		margin-top: 50px;
-		margin-bottom: 50px;
-	}
-	.banner_text h1 {
-		font-size: 24px;
-		line-height: .1;
-	}
-	.banner_text h2 {
-		font-size: 32px;
-	}
-	.banner_text p {
-		font-size: 15px;
-		word-spacing: 0px;
-	}
-	.banner_image {
-		margin: 0 auto;
-	}
-	/* Banner Section End */
-	/* About Section Start */
-	.about {
 		margin-top: 10px;
-		padding-bottom: 20px;
-		background-color: #FFC61A;
 	}
-	.about_text {
-		margin-top: 20px;
+	.social_links {
+		margin-top: 30px;
+	}
+	.social_links a {
+		margin-right: 10px;
+	}
+	.social_links a img {
+		width: 10%;
+	}
+	.contact_address {
+		width: 50%;
 		margin-bottom: 20px;
 	}
-	.about_text h1 {
-		font-size: 22px;
-	}
-	.about_text h2 {
-		font-size: 28px;
-	}
-	.booking_form button {
-		padding: 0px 100px;
-	}
-	/* About Section End */
-	/* Tariff Section Start */
-	.tariff {
-		margin-top: 40px;
-		margin-bottom: 40px;
-	}
-	.common_title h1 {
-		font-size: 26px;
-	}
-	.common_title h2 {
-		font-size: 34px;
-	}
-	.custom_card-body h5 {
-		font-size: 22px;
-	}
-	.custom_card-body p {
-		font-size: 16px;
-	}
-	.custom_card-body h1 {
-		font-size: 32px;
-		margin-bottom: 25px;
-	}
-	.custom_card-body a {
-		font-size: 22px;
-		padding: 8px 17px;
-	}
-	/* Tariff Section End */
-	/* Service Section Start */
-	.top_margin {
-		margin-top: 40px;
-	}
-	.service_content {
-		margin-top: 30px;
-	}
-	.service_button a {
-		font-size: 22px;
-		padding: 8px 17px;
-	}
-	/* Service Section End */
-	/* Mobile Apps Section Starts */
-	.apps_content {
-		margin-top: 20px;
-	}
-	.apps_content h1 {
-		padding-top: 10px;
-	}
-	.apps_content p {
-		margin-bottom: 30px;
-	}
-	.apps_content a img {
-		width: 49%;
-	}
-	/* Mobile Apps Section Ends */
-	/* Clients Testimonial Section Starts */
-	.testimonial {
-		padding-bottom: 40px;
-	}
-	.testimonial_content {
-		margin-top: 20px;
-		margin-bottom: 10px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-	.testimonial_content h1 {
-		margin-top: 15px;
-	}
-	/* Clients Testimonial Section Ends */
-	/* Hotline Number Section Start */
-	.hotline_number {
-		margin-top: 40px;
-		margin-bottom: 40px;
-	}
-	.hotline_number h1 {
-		font-size: 16px;
-	}
-	.hotline_number h2 {
-		font-size: 40px;
-	}
-	/* Hotline Number Section End */
-	/* Contact Section Starts */
-	.contact_title {
+	.contact_info {
+		width: 100%;
+		margin: 0 auto;
 		margin-top: 0px;
 	}
-	.col_margin {
-		margin-top: 40px;
+	.contact_info h5 {
+		font-size: 14px;
 	}
-	.contact_title h1 {
-		font-size: 22px;
+	.contact_info p {
+		font-size: 12px;
 	}
-	.contact_content {
-		margin-top: 30px;
-		margin-bottom: 40px;
+	/* Contact Section Ends Here */
+	/* Footer Section Starts Here */
+	.copyright_text h5 {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-size: 10px;
 	}
-	/* Contact Section Ends */
+	.footer_menu {
+		margin-top: 35px;
+		margin-bottom: 5px;
+	}
+	.footer_menu ul li {
+		margin-bottom: 5px;
+	}
+	.footer_menu a {
+		font-size: 12px;
+		padding: 8px 15px!important;
+	}
+	/* Footer Section Ends Here */
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-	main {
-		background-image: url(../images/banner_bg_sm.jpg);
-		background-repeat: no-repeat;
-		background-size: 180%;
-		background-position: top center;
-	}
-	/* Header Section Start */
-	.custom_navbar {
-		padding: 10px 30px;
-	}
-	.custom_nav li {
+	/* Header Starts Here */
+	.custom_nav-item li {
+		margin-top: 10px;
 		margin-left: 0px;
-		margin-top: 5px;
+		margin-right: 0px;
+		text-align: left;
 	}
-	/* Header Section End */
-	/* Banner Section Start */
-	.banner_text {
-		margin-top: 50px;
-		margin-bottom: 50px;
+	.custom_nav-item a {
+		width: 30%;
+		font-size: 14px;
+		padding: 5px 25px!important;
 	}
-	.banner_text h1 {
-		font-size: 28px;
-		line-height: .1;
+	/* Header Ends Here */
+	/* Banner Starts Here */
+	.custom_tcaption {
+	    position: absolute;
+	    right: 15%;
+	    top: 0;
+	    left: 15%;
 	}
-	.banner_text h2 {
-		font-size: 50px;
+	.custom_tcaption h1 {
+	    font-size: 24px;
 	}
-	.banner_text p {
-		font-size: 18px;
-		word-spacing: 5px;
+	.custom_bcaption {
+	    position: absolute;
+	    right: 15%;
+	    bottom: 0;
 	}
-	/* Banner Section End */
-	/* About Section Start */
-	.about {
-		margin-top: 30px;
-		padding-bottom: 40px;
-		background-color: #FFC61A;
+	.custom_bcaption a img {
+		width: 50%;
 	}
-	.about_text {
-		margin-bottom: 30px;
+	/* Banner Ends Here */
+	/* Service Section Starts Here */
+	.service_title {
+		margin-top: 35px;
 	}
-	.about_text h1 {
+	.service_title img {
+		width: 40%;
+	}
+	.service_title h1 {
 		font-size: 30px;
 	}
-	.about_text h2 {
-		font-size: 40px;
+	.service_content p {
+		font-size: 14px;
+		margin-top: 10px;
 	}
-	.booking_form button {
-		padding: 0px 100px;
+	.service_icons {
+		margin-top: 30px;
 	}
-	/* About Section End */
-	/* Tariff Section Start */
-	.tariff {
-		margin-top: 40px;
-		margin-bottom: 40px;
+	.service_icons h5 {
+		font-size: 15px;
 	}
-	.common_title h1 {
-		font-size: 26px;
+	.service_icons p {
+		font-size: 12px;
 	}
-	.common_title h2 {
-		font-size: 34px;
+	.works_title {
+		margin-bottom: 15px;
 	}
-	.custom_card-body h5 {
-		font-size: 26px;
+	.works_title h1 {
+		font-size: 30px;
+		margin-top: 35px;
 	}
-	.custom_card-body p {
+	.works_title img {
+		width: 40%;
+	}
+	.load_more button img {
+		width: 50%;
+		margin-top: 35px;
+	}
+	/* Service Section Ends Here */
+	/* About Me Section Starts Here */
+	.about_title h1 {
+		font-size: 30px;
+		margin-top: 35px;
+	}
+	.about_title img {
+		width: 40%;
+	}
+	.about_content p {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	.skillset {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.skillset img {
+		margin-top: 5px;
+	}
+	.skillset h1 {
+		font-size: 28px;
+	}
+	.skillset h6 {
 		font-size: 16px;
 	}
-	.custom_card-body h1 {
-		font-size: 34px;
-		margin-bottom: 30px;
+	.skillset p {
+		font-size: 14px;
+		margin-top: 10px;
 	}
-	.custom_card-body a {
-		font-size: 24px;
-		padding: 10px 20px;
-	}
-	/* Tariff Section End */
-	/* Mobile Apps Section Starts */
-	.apps_content {
-		margin-top: 30px;
-	}
-	.apps_content h1 {
-		padding-top: 10px;
-	}
-	.apps_content p {
-		margin-bottom: 30px;
-	}
-	.apps_content a img {
-		width: 49%;
-	}
-	/* Mobile Apps Section Ends */
-	/* Clients Testimonial Section Starts */
-	.testimonial {
-		padding-bottom: 40px;
-	}
-	.testimonial_content {
-		margin-top: 20px;
-		margin-bottom: 10px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-	.testimonial_content h1 {
-		margin-top: 15px;
-	}
-	/* Clients Testimonial Section Ends */
-	/* Hotline Number Section Start */
-	.hotline_number {
-		margin-top: 40px;
-		margin-bottom: 40px;
-	}
-	.hotline_number h1 {
-		font-size: 18px;
-	}
-	.hotline_number h2 {
-		font-size: 45px;
-	}
-	/* Hotline Number Section End */
-	/* Contact Section Starts */
-	.contact_title {
-		margin-top: 0px;
-	}
-	.col_margin {
-		margin-top: 40px;
+	/* About Me Section Ends Here */
+	/* Contact Section Starts Here */
+	.contact_form {
+		margin-top: 35px;
+		margin-bottom: 35px;
 	}
 	.contact_title h1 {
-		font-size: 22px;
+		font-size: 30px;
+	}
+	.contact_title img {
+		width: 40%;
+	}
+	.contact_form form label {
+		margin-top: 10px;
+	}
+	.contact_form form button {
+		margin-top: 30px;
+	}
+	.contact_form form button img {
+		width: 45%;
 	}
 	.contact_content {
-		margin-top: 30px;
-		margin-bottom: 40px;
+		margin-top: 10px;
 	}
-	/* Contact Section Ends */
+	.social_links {
+		margin-top: 30px;
+	}
+	.social_links a {
+		margin-right: 10px;
+	}
+	.social_links a img {
+		width: 10%;
+	}
+	.contact_address {
+		width: 50%;
+		margin-bottom: 20px;
+	}
+	.contact_info {
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 0px;
+	}
+	.contact_info h5 {
+		font-size: 16px;
+	}
+	.contact_info p {
+		font-size: 14px;
+	}
+	/* Contact Section Ends Here */
+	/* Footer Section Starts Here */
+	.copyright_text h5 {
+		margin-top: 15px;
+		margin-bottom: 35px;
+		font-size: 14px;
+	}
+	.footer_menu {
+		margin-top: 35px;
+		margin-bottom: 10px;
+	}
+	.footer_menu ul li {
+		margin-bottom: 10px;
+	}
+	.footer_menu a {
+		font-size: 14px;
+		padding: 10px 20px!important;
+	}
+	/* Footer Section Ends Here */
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-	/* Header Section Start */
-	.custom_nav li {
-		margin-left: 0px;
-		margin-top: 5px;
+	/* Header Starts Here */
+	.custom_nav-item li {
+		margin-top: 15px;
+		margin-left: 8px;
+		margin-right: 8px;
 	}
-	/* Header Section End */
-	/* Banner Section Start */
-	.banner_text h1 {
+	.custom_nav-item a {
+		font-size: 12px;
+		padding: 7px 20px!important;
+	}
+	/* Header Ends Here */
+	/* Banner Starts Here */
+	.custom_tcaption {
+	    position: absolute;
+	    right: 15%;
+	    top: 20px;
+	    left: 15%;
+	}
+	.custom_tcaption h1 {
+	    font-size: 30px;
+	}
+	.custom_bcaption {
+	    position: absolute;
+	    right: 15%;
+	    bottom: 57px;
+	}
+	.custom_bcaption a img {
+		width: 35%;
+	}
+	.slider_bottom img {
+		width: 14px;
+	}
+	/* Banner Ends Here */
+	/* Service Section Starts Here */
+	.divider img {
+		width: 2.5px;
+		margin-top: 8px;
+	}
+	.service_content p {
+		font-size: 13px;
+		margin-top: 25px;
+	}
+	.service_icons {
+		margin-top: 35px;
+	}
+	.service_icons img:nth-of-type(1) {
+		width: 35%;
+	}
+	.service_icons img:nth-of-type(2) {
+		width: 2.5px;
+	}
+	.service_icons h5 {
+		font-size: 12px;
+	}
+	.service_icons p {
+		font-size: 12px;
+	}
+	.divider_scroll {
+		margin-top: 35px;
+	}
+	.divider_scroll img {
+		width: 14px;
+	}
+	.service_title {
+		margin-top: 35px;
+	}
+	.service_title h1 {
 		font-size: 30px;
 	}
-	.banner_text h2 {
-		font-size: 65px;
+	.service_title img {
+		width: 70%;
 	}
-	.banner_text p {
-		font-size: 20px;
-		word-spacing: 8px;
+	.works_title {
+		margin-bottom: 35px;
 	}
-	/* Banner Section End */
-	/* About Section Start */
-	.about {
-		margin-top: 20px;
-		padding-bottom: 50px;
-	}
-	.about_text h1 {
-		font-size: 28px;
-	}
-	.about_text h2 {
-		font-size: 35px;
-	}
-	.booking_form button {
-		padding: 0px 100px;
-	}
-	/* About Section End */
-	/* Tariff Section Start */
-	.tariff {
-		margin-top: 50px;
-		margin-bottom: 50px;
-	}
-	.common_title h1 {
-		font-size: 26px;
-	}
-	.common_title h2 {
-		font-size: 34px;
-	}
-	.custom_card-body h5 {
-		font-size: 19px;
-	}
-	.custom_card-body p {
-		font-size: 14px;
-	}
-	.custom_card-body h1 {
+	.works_title h1 {
 		font-size: 30px;
-		margin-bottom: 20px;
+		margin-top: 70px;
 	}
-	.custom_card-body a {
-		font-size: 20px;
-		padding: 7px 15px;
+	.works_title img {
+		width: 70%;
 	}
-	/* Tariff Section End */
-	/* Service Section Start */
-	.top_margin {
+	.load_more button img {
+		width: 55%;
+		margin-top: 35px;
+	}
+	/* Service Section Ends Here */
+	/* About Me Section Starts Here */
+	.about_title h1 {
+		font-size: 30px;
+		margin-top: 70px;
+	}
+	.about_title img {
+		width: 70%;
+	}
+	.about_scroll img {
+		width: 14px;
 		margin-top: 50px;
 	}
-	.service_content {
-		margin-top: 50px;
+	.about_content p {
+		font-size: 13px;
+		margin-top: 60px;
 	}
-	.service_button a {
-		font-size: 22px;
-		padding: 8px 17px;
+	.skillset {
+		margin-top: 35px;
+		margin-bottom: 35px;
 	}
-	/* Service Section End */
-	/* Mobile Apps Section Starts */
-	.apps_content {
-		margin-top: 20px;
+	.skillset img {
+		width: 40%;
 	}
-	.apps_content h1 {
-		padding-top: 20px;
+	.skillset h1 {
+		font-size: 30px;
 	}
-	.apps_content p {
-		margin-bottom: 30px;
-	}
-	.apps_content a img {
-		width: 45%;
-	}
-	/* Mobile Apps Section Ends */
-	/* Clients Testimonial Section Starts */
-	.testimonial_content {
-		margin-top: 50px;
-		margin-bottom: 80px;
-		padding-top: 30px;
-		padding-bottom: 30px;
-	}
-	.testimonial_content p {
+	.skillset h6 {
 		font-size: 14px;
 	}
-	.testimonial_content h1 {
-		font-size: 18px;
+	.skillset p {
+		font-size: 12px;
 		margin-top: 15px;
 	}
-	/* Clients Testimonial Section Ends */
-	/* Hotline Number Section Start */
-	.hotline_number {
-		margin-top: 50px;
-		margin-bottom: 50px;
+	/* About Me Section Ends Here */
+	/* Contact Section Starts Here */
+	.contact_form {
+		margin-top: 60px;
+		margin-bottom: 35px;
 	}
-	.hotline_number h1 {
-		font-size: 26px;
+	.contact_form form label {
+		margin-top: 5px;
 	}
-	.hotline_number h2 {
-		font-size: 60px;
+	.contact_form form input {
+		line-height: 1.8;
 	}
-	/* Hotline Number Section End */
-	/* Contact Section Starts */
-	.contact_title {
-		margin-top: 50px;
+	.contact_form form textarea {
+		line-height: 1.8;
 	}
-	.contact_title h1 {
-		font-size: 20px;
+	.contact_form form button {
+		margin-top: 25px;
+	}
+	.contact_form form button img {
+		width: 55%;
 	}
 	.contact_content {
+		margin-top: 35px;
+	}
+	.contact_title h1 {
+		font-size: 30px;
+	}
+	.contact_title img {
+		width: 70%;
+	}
+	.social_links {
+		margin-top: 35px;
+	}
+	.contact_address {
+		margin-bottom: 20px;
+	}
+	.contact_address h5 {
+		font-size: 11px;
+	}	
+	.contact_address p {
+		font-size: 8px;
+	}
+	.contact_info {
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 70px;
+	}
+	.contact_info h5 {
+		font-size: 12px;
+	}
+	.contact_info p {
+		font-size: 11px;
+	}
+	/* Contact Section Ends Here */
+	/* Footer Section Starts Here */
+	.copyright_text h5 {
 		margin-top: 20px;
-		margin-bottom: 50px;
+		margin-bottom: 20px;
+		font-size: 10px;
 	}
-	.contact_content p {
-		font-size: 14px;
+	.footer_menu {
+		margin-top: 10px;
+		margin-bottom: 20px;
 	}
-	.app_icon li i {
-		font-size: 22px;
+	.footer_menu a {
+		font-size: 10px;
+		padding: 7px 8px!important;
 	}
-	/* Contact Section Ends */
+	/* Footer Section Ends Here */
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	/* Header Section Start */
-	.custom_navbar {
-		padding: 30px 10px;
+	/* Banner Starts Here */
+	.custom_tcaption {
+	    position: absolute;
+	    right: 15%;
+	    top: 40px;
+	    left: 15%;
 	}
-	.custom_nav li {
-		margin-left: 5px;
+	.custom_bcaption {
+	    position: absolute;
+	    right: 15%;
+	    bottom: 92px;
 	}
-	/* Header Section End */
-	/* Banner Section Start */
-	.banner_text h1 {
-		font-size: 30px;
+	.custom_bcaption a img {
+		width: 30%;
 	}
-	.banner_text h2 {
-		font-size: 65px;
+	.slider_bottom img {
+		width: 19px;
 	}
-	.banner_text p {
-		font-size: 20px;
-		word-spacing: 8px;
+	/* Banner Ends Here */
+	/* Service Section Starts Here */
+	.divider img {
+		width: 3px;
+		margin-top: 10px;
 	}
-	/* Banner Section End */
+	.service_content p {
+		font-size: 14px;
+		margin-top: 50px;
+	}
+	.service_icons {
+		margin-top: 50px;
+	}
+	.service_icons img:nth-of-type(1) {
+		width: 30%;
+	}
+	.service_icons img:nth-of-type(2) {
+		width: 3px;
+	}
+	.service_icons h5 {
+		font-size: 14px;
+	}
+	.service_icons p {
+		font-size: 12px;
+	}
+	.divider_scroll {
+		margin-top: 50px;
+	}
+	.divider_scroll img {
+		width: 19px;
+	}
+	.service_title {
+		margin-top: 50px;
+	}
+	.service_title h1 {
+		font-size: 40px;
+	}
+	.service_title img {
+		width: 65%;
+	}
+	.works_title {
+		margin-bottom: 50px;
+	}
+	.works_title h1 {
+		font-size: 40px;
+		margin-top: 100px;
+	}
+	.works_title img {
+		width: 65%;
+	}
+	.load_more button img {
+		width: 65%;
+		margin-top: 50px;
+	}
+	/* Service Section Ends Here */
+	/* About Me Section Starts Here */
+	.about_title h1 {
+		font-size: 40px;
+		margin-top: 100px;
+	}
+	.about_title img {
+		width: 65%;
+	}
+	.about_scroll img {
+		width: 19px;
+		margin-top: 50px;
+	}
+	.about_content p {
+		font-size: 14px;
+		margin-top: 100px;
+	}
+	.skillset {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.skillset img {
+		width: 45%;
+	}
+	.skillset h1 {
+		font-size: 40px;
+	}
+	.skillset h6 {
+		font-size: 15px;
+	}
+	.skillset p {
+		font-size: 12px;
+		margin-top: 15px;
+	}
+	/* About Me Section Ends Here */
+	/* Contact Section Starts Here */
+	.contact_form {
+		margin-top: 80px;
+		margin-bottom: 50px;
+	}
+	.contact_form form label {
+		margin-top: 10px;
+	}
+	.contact_form form input {
+		line-height: 2.2;
+	}
+	.contact_form form textarea {
+		line-height: 2.2;
+	}
+	.contact_form form button {
+		margin-top: 40px;
+	}
+	.contact_form form button img {
+		width: 50%;
+	}
+	.contact_content {
+		margin-top: 50px;
+	}
+	.contact_title h1 {
+		font-size: 40px;
+	}
+	.contact_title img {
+		width: 65%;
+	}
+	.social_links {
+		margin-top: 50px;
+	}
+	.contact_address {
+		margin-bottom: 30px;
+	}
+	.contact_address h5 {
+		font-size: 14px;
+	}	
+	.contact_address p {
+		font-size: 12px;
+	}
+	.contact_info {
+		width: 65%;
+		margin: 0 auto;
+		margin-top: 100px;
+	}
+	.contact_info h5 {
+		font-size: 14px;
+	}
+	.contact_info p {
+		font-size: 12px;
+	}
+	/* Contact Section Ends Here */
+	/* Footer Section Starts Here */
+	.copyright_text h5 {
+		margin-top: 40px;
+		margin-bottom: 40px;
+		font-size: 13px;
+	}
+	.footer_menu {
+		margin-top: 32px;
+		margin-bottom: 40px;
+	}
+	.footer_menu a {
+		font-size: 13px;
+		padding: 8px 10px!important;
+	}
+	/* Footer Section Ends Here */
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) and (max-width: 1499.98px) {
+@media (min-width: 1200px) {
 
-}
-/* Extra large devices (large desktops, 1500px and up) */
-@media (min-width: 1500px) {
-	main {
-		background-image: url(../images/banner_bg.png);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center center;
-	}
 }
