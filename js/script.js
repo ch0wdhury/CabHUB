@@ -6,6 +6,6 @@
     });
         $('.clockpicker').clockpicker({
 		    placement: 'top',
-		    align: 'left',
+		    align: 'right',
 		    donetext: 'Done'
 		});
