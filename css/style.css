@@ -130,6 +130,21 @@ main {
 	border-bottom: 1px solid #FFC61A;
 	margin: 10px auto;
 }
+.datepicker-dropdown{
+	background-color: #FFC61A!important;
+}
+.popover-title, .popover-title span {
+	background-color: #FFC61A!important;
+	color: #000!important;
+}
+.clockpicker-button {
+	background-color: #000!important;
+	color: #FFC61A!important;
+	font-size: 16px;
+	font-weight: 600;
+	outline: none;
+	border: none;
+}
 .form-control:focus {
 	border-color: none;
     box-shadow: none;
